@@ -6,11 +6,7 @@ een token vragen en een sessie openen. Check blueprint (attached - 'Security - O
 
 
 2) Hoe zou je logging in deze applicatie implementeren? Illustreer met een tekening.
-2) Omdat zij voor een envoudig methode hebben gekozen om de klanten Games te laten 
-huren (dus zonder account management) is deze task niet zomaar direct. We moeten hiermee oppassen met duplicaties 
-van users die verschillend gegevens ingeven bijvoorbeeld 'Cliff' gebruiken in plaats van 'Clifford' als naam.
-Daarom kiezen we bijvoorbeeld om hun email adres te gebruiken als primary key. De implementatie zelf kan je zien op
-de envoudige blueprint hieronder (attachement - 'Logging - Blueprint - OGRS').
+2) Wanneer een exception optreed de log in een file of database opslaan (attachement - 'Logging - Blueprint - OGRS').
 
 
 3) Waar zit het grootste risico in deze architectuur?
