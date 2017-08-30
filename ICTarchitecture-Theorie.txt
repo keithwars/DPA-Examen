@@ -1,0 +1,23 @@
+Examen ICT Architecture
+
+1) Hoe zou je security in deze applicatie implementeren? Illustreer met een tekening.
+1) De beste manier om security te implementeren is met een user en password (user management system). Daarmee 
+een token vragen en een sessie openen. Check blueprint (attached - 'Security - OGRS') voor meer info.
+
+
+2) Hoe zou je logging in deze applicatie implementeren? Illustreer met een tekening.
+2) Omdat zij voor een envoudig methode hebben gekozen om de klanten Games te laten 
+huren (dus zonder account management) is deze task niet zomaar direct. We moeten hiermee oppassen met duplicaties 
+van users die verschillend gegevens ingeven bijvoorbeeld 'Cliff' gebruiken in plaats van 'Clifford' als naam.
+Daarom kiezen we bijvoorbeeld om hun email adres te gebruiken als primary key. De implementatie zelf kan je zien op
+de envoudige blueprint hieronder (attachement - 'Logging - Blueprint - OGRS').
+
+
+3) Waar zit het grootste risico in deze architectuur?
+3) Het grootste risico in deze architectuur kunnen de interfaces zijn wanneer er honderd business applications 
+aan elkaar verbonden zijn.
+
+4) Beschrijf in je eigen woorden wat software architectuur is.
+4) Software-architectuur is de structuur van een softwaresysteem op het hoogste niveau.
+Software architecture toont de structuur tussen software-elementen. Het zorgt ervoor dat 
+veelvoorkomende problemen opgelost kunnen worden aan de hand van een gegeven context.
